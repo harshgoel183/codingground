@@ -39,7 +39,7 @@ int main()
     bool sorted;
 
     // Number of data items to test.
-    int N[] = {100, 1000, 10000/*, 100000 */};
+    int N[] = {100, 1000, /* 10000, 100000 */};
 
     // Sorting algorithms.
     Sorter *sorters[] =
